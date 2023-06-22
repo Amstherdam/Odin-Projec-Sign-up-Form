@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up</title>
 </head>
 <body>
+      
+    <main class="container">
+        
+        <div class="logo">
+            <img src="odin-lined.png" alt="">
+        </div>
+        <img src="left_img2.jpg" alt="">
+
+    <div class="rightSide">
+
+        <div class="description">
+            <p>This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams.</p> 
+            <p>Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
+
+        <form action="#" class="form">
+
+            <h1>Let's do this!</h1>
+
+            <div class="inputs">
+
+                <div class="formItem">
+                    <label class="labels" for="firstName">FIRST NAME ( * )</label>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div class="formItem">
+                    <label for="lastName" class="labels" for="">LAST NAME ( * )</label>
+                    <input type="text" name="last" id="lastName" required>
+                </div>
+
+            </div>
+            
+            <div class="inputs">
+
+                <div class="formItem">
+                    <label class="labels" for="email">EMAIL ( * )</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="formItem">
+                    <label for="phoneNumber" class="labels">PHONE NUMBER</label>
+                    <input type="number" id="phoneNumber" min="9" maxlength="9" required>
+                </div>
+
+            </div>
+           
+            <div class="inputs">
+
+                <div class="formItem">
+                    <label class="labels" for="password">PASSWORD ( * )</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div class="formItem">
+                    <label for="confirmPassword" class="labels">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+            </div>
+
+        </form>
+
+        <div class="footerDiv"> 
+            <button type="submit">Create Account</button>
+
+            <p >Already have an account? <a href="#">Log in !</a></p>
+
+        </div>
+        
+    <div id="divForGit" >
+       <a href="https://github.com/Amstherdam">  <i id="theGit" class="fa-brands fa-github"></i></a>
+    </div>
+    </div>
+
+    </main>
+    
     
 </body>
 </html>
